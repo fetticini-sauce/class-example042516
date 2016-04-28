@@ -1,0 +1,261 @@
+html	{overflow: hidden; height: 100%; background: #bcbdc7;
+}
+body {
+	overflow: auto;
+	height: 100%;
+	width: 1100px;
+	margin: 0 auto; /* center */
+	padding:5px;
+	border: 1px solid #474747;
+	border-width: 0 3px;
+	background: #fff;
+	font-family:Arial, Helvetica, sans-serif;
+}          
+
+
+#container1 {
+      width:auto; float:left; background:#fff;
+}
+
+  h1, h2, h3, h4, h5, h6{
+	width: auto;
+	height: 30px;
+  padding-bottom:5px;
+	text-align: center;
+	background-color: #161956;
+  color: #BCBDC7;	
+}
+
+#vilenia{
+	float:left;
+	width:1000px;
+  padding:0 0 20px 0;
+	margin:auto;
+}
+#vilenia li{
+	float:left;
+	width:auto;
+	display:block;
+	padding:0px;
+        background:#161956;
+        text-decoration:none;
+        list-style:none;
+      
+}
+#vilenia li a{
+	float:left;
+	width:auto;
+	color:#fff;
+	font-size:12px;
+	padding:10px 24px 10px 24px;
+        background:#161956;
+        text-decoration:none;
+        list-style:none;
+}
+
+#vilenia li a:hover{
+	float:left;
+	font-size:12px;
+	padding:10px 24px 10px 24px;
+        text-decoration:none;
+        list-style:none;
+        background:#BCBDC7;
+        color:#161956;
+}
+
+#vilenia li a.active{
+	float:left;
+	font-size:12px;
+	padding:10px 24px 10px 24px;
+        text-decoration:none;
+        list-style:none;
+        background:red;
+        color:white;
+}
+/*---this is the blue1647 logo---*/
+
+#container1_logo { 
+    margin: 10px 0 0 175px; 
+    padding:15px;
+	  font:normal 15px/16px "Arial", Georgia, Verdana,  Helvetica, 
+    sans serif;
+	  width: 725px;
+    height: 230px;
+    background:url(images/blue1647.jpg);
+	  background-repeat:no-repeat; 
+	  background-color:#FFF;
+    color:#474747;          
+}
+
+#container2 {
+      width:auto; float:left; background:#fff;
+}
+
+.text { 
+    margin: 20px;
+    padding: 5px 15px;
+    font-family: "Arial", Times New Roman;
+    font-size: 20px;
+    font-height: 30px;
+    color: #161956;
+    font-weight:normal;
+    text-align: left;  
+}
+#images1 {
+          margin:0px;
+          padding: 0px;
+          width: auto;
+          background-color: #474747;
+          height: 250px;
+}
+
+#images1-LG {
+          margin:0px;
+          padding: 0px;
+          width: auto;
+          background-color: #474747;
+          height: 520px;
+}
+
+.pics_port {
+          margin:26px;
+          padding-left: 6px;
+          float: left;
+          width: 120px;
+          height:160px;
+          
+}
+
+.pics_portLG {
+          margin:26px;
+          padding-left: 7px;
+          float: left;
+          width: 300px;
+          height:400px;
+          background-color: yellow;
+}
+
+.pics_port p.more a{width:120px; height:50px; display:block; background:url(images/button.png)  0 0 no-repeat; color:#FFF; font:10px/12px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; text-align:center; text-decoration:none; padding-top: 11px;} 
+
+.pics_port p.more a:hover{background:url(images/button_hover.png)  0 0 no-repeat ; color:#f00; text-decoration:none;}
+
+p.caption {
+  width:300px; 
+  height:40px; 
+  display:block; 
+  background:#bcbdc7; 
+  color:#474747; 
+  font:20px/22px "Trebuchet MS",Arial, Helvetica, sans-serif; 
+  font-weight:bold; text-align:center; 
+  text-decoration:none; 
+  padding-top: 20px;
+  border: 2px #fff solid;
+} 
+
+#images2 {
+          margin:0px;
+          padding: 0px;
+          width: auto;
+          height: 230px;
+          background-color:#474747;
+}
+
+/*adjust large images on the portfolio page container*/
+
+.port_imagesPort {
+          margin-bottom:10px;
+          padding-top: 10px 0px 20px 0px;
+          width: auto;
+          background-color:#474747;
+          height: 550px;
+}
+
+.port_images{
+          margin-bottom:10px;
+          padding-top: 10px 0px 20px 0px;
+          width: auto;
+          background-color:#474747;
+          height: 450px;
+}
+
+.pics_land {
+          margin:22px;
+          padding: 15px 0 0 0px;
+          float: left;
+          width: 160px;
+          height:120px;         
+}
+
+.pics_landLG {
+          margin:10px;
+          padding: 20px 0px 10px 10px;
+          float: left;
+          width: 500px;
+          height:300px;
+          background-color: yellow;
+}
+
+p.captionLG {
+  width:500px; 
+  height:40px; 
+  display:block; 
+  background:#bcbdc7; 
+  color:#474747; 
+  font:20px/22px "Trebuchet MS",Arial, Helvetica, sans-serif; 
+  font-weight:bold; text-align:center; 
+  text-decoration:none; 
+  padding-top: 20px;
+  border: 2px #fff solid;
+} 
+
+.pics_land p.more a{width:120px; height:50px; display:block; background:url(images/button.png)  0 0 no-repeat ; 
+  color:#FFF; font:10px/12px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; text-align:center; text-decoration:none; margin-left:21px; padding: 15px 0 0 3px;} 
+
+.pics_land p.more a:hover{background:url(images/button_hover.png)  0 0 no-repeat; color:#f00; text-decoration:none;}
+
+#footer {
+      width:1075px; height:75px; float:left; background:#474747; margin: 0 0 10px 0px; padding-bottom: 10px;
+}
+.footer { 
+    margin: 5px;
+    padding: 5px;
+    font-family: "Arial", Times New Roman;
+    font-size: 12px;
+    font-height: 14px;
+    color: #fff;
+    font-weight:normal;
+    text-align: center;  
+}
+
+
+#footer li{
+  float:left;
+  width:50px;
+  height: 12px;
+  margin-left: 100px; 
+  display:block;
+  padding:0px;
+  text-decoration:none;
+  list-style:none;
+  text-align: center;     
+}
+#footer li a{
+  float:left;
+  width:50px;
+  height: 12px;
+  margin-left: 80px;
+  color:#fff;
+  font-size:12px;
+  text-decoration:none;
+  list-style:none;
+  text-align: center; 
+}
+
+#footer li a:hover{
+  float:left;
+  font-size:12px;
+  text-decoration:none;
+  list-style:none;
+  text-align: center;   
+  color:orange;
+}
